@@ -1,7 +1,7 @@
-package com.rest.api.services;
+package restApi.services;
 
-import com.rest.api.entity.Product;
-import com.rest.api.repo.ProductRepository;
+import restApi.entity.Product;
+import restApi.repo.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

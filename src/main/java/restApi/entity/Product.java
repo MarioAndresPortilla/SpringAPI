@@ -1,4 +1,4 @@
-package com.rest.api.entity;
+package restApi.entity;
 
 import java.io.Serializable;
 

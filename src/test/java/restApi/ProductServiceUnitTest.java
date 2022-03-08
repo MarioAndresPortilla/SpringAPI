@@ -1,7 +1,7 @@
-package com.rest.api;
+package restApi;
 
-import com.rest.api.entity.Product;
-import com.rest.api.services.ProductService;
+import restApi.entity.Product;
+import restApi.services.ProductService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
