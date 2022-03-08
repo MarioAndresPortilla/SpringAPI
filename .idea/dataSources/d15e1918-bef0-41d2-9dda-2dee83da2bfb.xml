@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Revature@Revaturedb.database.windows.net">
+  <database-model serializer="dbm" dbms="AZURE" family-id="AZURE" format-version="4.32">
+    <root id="1">
+      <Dbms>AZURE</Dbms>
+      <ServerVersion>12.0.2327</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="3" parent="1" name="revature">
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Current>1</Current>
+      <Fingerprint>5.44605/10AFF873-4CC2-40A9-93B9-DB486BEBBB00@revaturedb</Fingerprint>
+      <Grants>5|database||1|connect|G</Grants>
+      <ObjectId>5</ObjectId>
+      <PermissionsCheckSum>1059020366</PermissionsCheckSum>
+    </database>
+    <login id="4" parent="1" name="##MS_DefinitionReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>13</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="5" parent="1" name="##MS_ServerStateManager##">
+      <Enabled>1</Enabled>
+      <ObjectId>12</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <login id="6" parent="1" name="##MS_ServerStateReader##">
+      <Enabled>1</Enabled>
+      <ObjectId>11</ObjectId>
+      <Type>server-role</Type>
+    </login>
+    <role id="7" parent="3" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="8" parent="3" name="dbo">
+      <AuthType>instance</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+    </role>
+    <role id="9" parent="3" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="10" parent="3" name="INFORMATION_SCHEMA">
+      <AuthType>none</AuthType>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="11" parent="3" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
+    </role>
+    <role id="12" parent="3" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="13" parent="3" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="14" parent="3" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="15" parent="3" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="16" parent="3" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="17" parent="3" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="18" parent="3" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="19" parent="3" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="20" parent="3" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <schema id="21" parent="3" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="22" parent="3" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="23" parent="3" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="24" parent="3" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="25" parent="3" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="26" parent="3" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="27" parent="3" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="28" parent="3" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="29" parent="3" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="30" parent="3" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="31" parent="3" name="dbo">
+      <Current>1</Current>
+      <IntrospectionTimestamp>2022-03-07.11:51:31.067</IntrospectionTimestamp>
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="32" parent="3" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="33" parent="3" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <table id="34" parent="31" name="artist">
+      <CreatedTimestamp>2022-02-16.10:40:11.487</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-16.10:40:11.500</ModifiedTimestamp>
+      <ObjectId>1973582069</ObjectId>
+    </table>
+    <table id="35" parent="31" name="author">
+      <CreatedTimestamp>2022-02-23.23:01:50.737</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.737</ModifiedTimestamp>
+      <ObjectId>2069582411</ObjectId>
+    </table>
+    <table id="36" parent="31" name="book">
+      <CreatedTimestamp>2022-02-23.23:01:50.730</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.730</ModifiedTimestamp>
+      <ObjectId>2037582297</ObjectId>
+    </table>
+    <table id="37" parent="31" name="book_to_author_map">
+      <CreatedTimestamp>2022-02-23.23:01:50.750</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.750</ModifiedTimestamp>
+      <ObjectId>2101582525</ObjectId>
+    </table>
+    <table id="38" parent="31" name="customer">
+      <CreatedTimestamp>2022-02-23.23:01:50.760</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.760</ModifiedTimestamp>
+      <ObjectId>2117582582</ObjectId>
+    </table>
+    <table id="39" parent="31" name="digimon">
+      <CreatedTimestamp>2022-03-03.16:46:58.677</CreatedTimestamp>
+      <ModifiedTimestamp>2022-03-03.16:46:58.677</ModifiedTimestamp>
+      <ObjectId>338100245</ObjectId>
+    </table>
+    <table id="40" parent="31" name="event">
+      <CreatedTimestamp>2022-02-23.23:01:50.767</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.767</ModifiedTimestamp>
+      <ObjectId>2099048</ObjectId>
+    </table>
+    <table id="41" parent="31" name="painting">
+      <CreatedTimestamp>2022-02-16.10:40:11.500</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-16.10:40:28.147</ModifiedTimestamp>
+      <ObjectId>2005582183</ObjectId>
+    </table>
+    <table id="42" parent="31" name="planets">
+      <CreatedTimestamp>2022-03-04.18:32:26.937</CreatedTimestamp>
+      <ModifiedTimestamp>2022-03-04.18:32:26.937</ModifiedTimestamp>
+      <ObjectId>370100359</ObjectId>
+    </table>
+    <column id="43" parent="34" name="artist_id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(5)</SequenceIdentity>
+    </column>
+    <column id="44" parent="34" name="name">
+      <DataType>varchar(40 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="45" parent="34" name="PK__artist__6CD04001DF3F532E">
+      <Clustering>1</Clustering>
+      <ColNames>artist_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="46" parent="34" name="PK__artist__6CD04001DF3F532E">
+      <ColNames>artist_id</ColNames>
+      <CreatedTimestamp>2022-02-16.10:40:11.487</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-16.10:40:11.487</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>1989582126</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__artist__6CD04001DF3F532E</UnderlyingIndexName>
+    </key>
+    <column id="47" parent="35" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="48" parent="35" name="first_name">
+      <DataType>varchar(100 char)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="49" parent="35" name="last_name">
+      <DataType>varchar(100 char)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <index id="50" parent="35" name="PK__author__3213E83F4923C259">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="51" parent="35" name="PK__author__3213E83F4923C259">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-23.23:01:50.740</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.740</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>2085582468</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__author__3213E83F4923C259</UnderlyingIndexName>
+    </key>
+    <column id="52" parent="36" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="53" parent="36" name="title">
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="54" parent="36" name="genre">
+      <DataType>varchar(100 char)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="55" parent="36" name="year_published">
+      <DataType>int|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="56" parent="36" name="available">
+      <DataType>bit|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <index id="57" parent="36" name="PK__book__3213E83F476A2021">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="58" parent="36" name="PK__book__3213E83F476A2021">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-23.23:01:50.730</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.730</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>2053582354</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__book__3213E83F476A2021</UnderlyingIndexName>
+    </key>
+    <column id="59" parent="37" name="book_id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="60" parent="37" name="author_id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="61" parent="38" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="62" parent="38" name="name">
+      <DataType>varchar(100 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="63" parent="38" name="PK__customer__3213E83FCF290925">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="38" name="PK__customer__3213E83FCF290925">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-23.23:01:50.760</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.760</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>2133582639</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__customer__3213E83FCF290925</UnderlyingIndexName>
+    </key>
+    <column id="65" parent="39" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="66" parent="39" name="name">
+      <DataType>varchar(255 char)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="67" parent="39" name="power">
+      <DataType>int|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <index id="68" parent="39" name="PK__digimon__3213E83FCA09ABF5">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="69" parent="39" name="PK__digimon__3213E83FCA09ABF5">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-03-03.16:46:58.813</CreatedTimestamp>
+      <ModifiedTimestamp>2022-03-03.16:46:58.813</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>354100302</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__digimon__3213E83FCA09ABF5</UnderlyingIndexName>
+    </key>
+    <column id="70" parent="40" name="id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(19)</SequenceIdentity>
+    </column>
+    <column id="71" parent="40" name="event_type">
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="72" parent="40" name="customer_id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="73" parent="40" name="book_id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="74" parent="40" name="date_time">
+      <DataType>varchar(50 char)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <index id="75" parent="40" name="PK__event__3213E83F9E40B658">
+      <Clustering>1</Clustering>
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="76" parent="40" name="PK__event__3213E83F9E40B658">
+      <ColNames>id</ColNames>
+      <CreatedTimestamp>2022-02-23.23:01:50.767</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-23.23:01:50.767</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>18099105</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__event__3213E83F9E40B658</UnderlyingIndexName>
+    </key>
+    <column id="77" parent="41" name="artist_id">
+      <DataType>int|0s</DataType>
+      <Position>1</Position>
+    </column>
+    <column id="78" parent="41" name="title">
+      <DataType>varchar(40 char)|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="79" parent="41" name="url">
+      <DataType>varchar(40 char)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="80" parent="41" name="genre">
+      <DataType>varchar(40 char)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="81" parent="41" name="year_made">
+      <DataType>int|0s</DataType>
+      <Position>5</Position>
+    </column>
+    <column id="82" parent="41" name="painting_type">
+      <DataType>varchar(4 char)|0s</DataType>
+      <Position>6</Position>
+    </column>
+    <foreign-key id="83" parent="41" name="FK__painting__artist__787EE5A0">
+      <ColNames>artist_id</ColNames>
+      <CreatedTimestamp>2022-02-16.10:40:11.500</CreatedTimestamp>
+      <ModifiedTimestamp>2022-02-16.10:40:11.500</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>2021582240</ObjectId>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>artist_id</RefColNames>
+      <RefKeyName>PK__artist__6CD04001DF3F532E</RefKeyName>
+      <RefTableId>1973582069</RefTableId>
+      <RefTableName>artist</RefTableName>
+    </foreign-key>
+    <column id="84" parent="42" name="planet_id">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="85" parent="42" name="alien_id">
+      <DataType>int|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="86" parent="42" name="planet_name">
+      <DataType>varchar(255 char)|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="87" parent="42" name="planet_race">
+      <DataType>varchar(255 char)|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <index id="88" parent="42" name="PK__planets__07D86787A499B818">
+      <Clustering>1</Clustering>
+      <ColNames>planet_id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <Position>1</Position>
+      <Unique>1</Unique>
+    </index>
+    <key id="89" parent="42" name="PK__planets__07D86787A499B818">
+      <ColNames>planet_id</ColNames>
+      <CreatedTimestamp>2022-03-04.18:32:26.937</CreatedTimestamp>
+      <ModifiedTimestamp>2022-03-04.18:32:26.937</ModifiedTimestamp>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>386100416</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK__planets__07D86787A499B818</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
