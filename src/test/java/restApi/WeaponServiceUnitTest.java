@@ -1,7 +1,7 @@
 package restApi;
 
-import restApi.entity.Product;
-import restApi.services.ProductService;
+import restApi.entity.Weapon;
+import restApi.services.WeaponService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,16 +13,16 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ProductServiceUnitTest {
+public class WeaponServiceUnitTest {
 
     @Autowired
-    private ProductService productService;
+    private WeaponService weaponService;
 
     @Test
     public void whenApplicationStarts_thenHibernateCreatesInitialRecords() {
-        List<Product> products = productService.list();
+        List<Weapon> weapons = weaponService.list();
 
-        Assert.assertEquals(products.size(), 9);
+        Assert.assertEquals(weapons.size(), 14);
     }
 }
 
