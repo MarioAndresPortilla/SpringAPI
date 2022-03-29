@@ -16,6 +16,12 @@ Java, Maven, Tomcat, H2, Hibernate, Spring Framework, Spring Boot, Spring MVC, S
 - Testing:
 JUnit
 
+## Features
+
+- Complete CRUD capabilities
+- H2 database with Halo weapon catalog
+- Junit test class(s)
+
 
 ## Installation
 
@@ -25,12 +31,12 @@ git clone https://github.com/MarioAndresPortilla/SpringAPI
 ```
 
 ## Usage
-To Access The Databse locally use this link:
+- To Access The Databse locally use this link:
 http://localhost:8080/h2-console/login.jsp?jsessionid=e02c83f42c09943c6643e571d1e84730
 ![image](https://user-images.githubusercontent.com/75400065/160505187-15236f49-8b4b-4b03-ad21-254234e0c3f4.png)
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+- Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
 ## GitHub 
