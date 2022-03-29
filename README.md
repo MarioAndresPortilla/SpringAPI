@@ -4,13 +4,13 @@
 
 
 ## Description
-This is a Spring Boot REST API developed by Mario Anthat utilizes H2 (Hypersonic 2) for its RDBMS. Within the database is an aresenal of weapons that has full CRUD functionality. 
+This is a Spring Boot REST API developed by Mario Andres Portilla. It utilizes H2 (Hypersonic 2) for its database (RDBMS). Within the database is an aresenal of weapons that has full CRUD functionality. 
 The current aresenal is inspired by the Halo universe, feel free to explore and check out the weapons. 
 
 
 ## Built With
 
-- Back end:
+- Backend:
 Java, Maven, Tomcat, H2, Hibernate, Spring Framework, Spring Boot, Spring MVC, Spring ORM, Spring Data 
 
 - Testing:
@@ -33,7 +33,7 @@ http://localhost:8080/h2-console/login.jsp?jsessionid=e02c83f42c09943c6643e571d1
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
-## Backend 
+## GitHub 
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MarioAndresPortilla/SpringAPI)
 
